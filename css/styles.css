@@ -25,29 +25,29 @@ a {
 .studio {
   color: #2e2f42;
 }
-.nav .nav-item {
+.nav-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav a:hover,
-.nav a:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: #404bbf;
 }
 .contacts {
   font-style: normal;
 }
-.contacts .contacts-item {
+.contacts-item {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts a:hover,
-.contacts a:focus {
+.contacts-item:hover,
+.contacts-item:focus {
   color: #404bbf;
 }
 .main-page {
@@ -58,14 +58,18 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .button-order {
   color: #fff;
   background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .button-order:hover,
@@ -76,31 +80,39 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.team-card {
+  background-color: #fff;
+}
 
-.team h2,
-.portfolio h2 {
+.team-title,
+.portfolio-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
-.features h3,
-.team h3,
-.portfolio h3 {
+.features-name,
+.team-name,
+.portfolio-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.features p,
-.team p,
-.portfolio p {
+.features-text,
+.team-text,
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
-.footer .footer-text {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
